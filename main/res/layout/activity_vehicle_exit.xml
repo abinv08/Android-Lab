@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Exit"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edtExitVehicleNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter vehicle registration number"
+        android:inputType="textCapCharacters"
+        android:maxLength="20"/>
+
+    <Button
+        android:id="@+id/btnSearchVehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Vehicle"/>
+
+    <TextView
+        android:id="@+id/txtVehicleDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle details will appear here"
+        android:textSize="17sp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btnConfirmExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Exit and Free Slot"
+        android:enabled="false"/>
+
+</LinearLayout>

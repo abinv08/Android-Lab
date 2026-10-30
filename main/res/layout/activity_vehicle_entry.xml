@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vehicle Entry"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/edtVehicleNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vehicle registration number"
+            android:inputType="textCapCharacters"
+            android:maxLength="20"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vehicle Type"
+            android:paddingTop="12dp"/>
+
+        <Spinner
+            android:id="@+id/spVehicleType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available Parking Slot"
+            android:paddingTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/spParkingSlot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnAllocate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allocate Parking Slot"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+</ScrollView>
